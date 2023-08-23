@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin: 10rem;
+}
+
+#main_container{margin-top: 10rem;
+    background-color: aliceblue;
+    width: 60%;
+    
+}
+
+h3{
+    text-align: center;
+}
+#search_task{
+    margin-left: 39.5%;
+}
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+.create_task_add{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-left: 32%;
+    margin-right: 26%;
+    border: 1px solid rgba(0, 0, 0, .09);
+    border-width: 0 0 0.5px 0
+}
+.btn{
+    background-color: red !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+#rows{
+    padding: 1rem;
+    margin-left: 24.5%;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    border: 1px solid rgba(0, 0, 0, .09);
+    border-width: 0 0 0.5px 0
+
+}
+p{
+    display: static;
+}
